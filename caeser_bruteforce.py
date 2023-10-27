@@ -4,7 +4,7 @@ Auther: nour
 '''
 
 import sys 
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabet = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z'
 ciphertext = ''
 for arg in '\n'.join(sys.argv[1:28:8]): 
     ciphertext += arg 
